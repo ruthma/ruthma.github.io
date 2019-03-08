@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+	<head>
+		<meta charset="utf-8">
+        <meta name="author" content="Ruth Martín">
+	    <link rel="stylesheet" href="css/reveal.css">
+	    <link rel="stylesheet" href="css/theme/beige.css">
+        <link rel="stylesheet" href="plugin/highlight/highlight.js">
+        <link rel="stylesheet" href="lib/css/zenburn.css">
+        <title>Mi presentación web</title>
+	</head>
+	<body>
+    	<div class="reveal">
+            <div class="slides">
+
+            	<section data-background-color="#2E64FE" data-background-image="./myimages/logo.png" data-background-size="100px" data-background-repeat="no-repeat" data-background-position="bottom">
+            		<h1>Ciberseguridad</h1>
+            		<hr>
+            		<h2>Ruth Martín Mazón</h2>
+            		<hr>
+            		<h3>Curso académico: 2018/19</h3>
+            	</section>
+
+                <section>
+                    <section data-background-image="./myimages/indice.jpg">
+                        <h2>Índice</h2>
+                    </section>
+                    <section data-background-color="#F5A9F2">
+                        <ul>
+                            <a href="#/2/0"><li>Introducción.</li></a>
+                            <a href="#/tema1"><li>Unidad 1: La información.</li></a>
+                            <a href="#/tema2"><li>Unidad 2: Los soportes.</li></a>
+                            <a href="#/tema3"><li>Unidad 3: El puesto de trabajo.</li></a>
+                            <a href="#/tema4"><li>Unidad 4: Los dispositivos móviles.</li></a>
+                            <a href="#/tema5"><li>Unidad 5: Técnicas hacking.</li></a>
+                            <a href="#/7/0"><li>Referencias bibliográficas</li></a>
+                        </ul>
+                        <aside class="notes">
+                        	Recuerda explicar a los estudiantes el método de evaluación.
+                        </aside>
+                    </section>
+                </section> 
+                        
+                <section data-transition="concave">
+                    <section data-background-image="./myimages/fondo.png">
+                        <h3><font color="white">Introducción</font></h3>
+                    </section>
+                    <section data-background-color="#F2F5A9" data-transition-speed="slow">
+                        <h3>¿Por qué estudiar "ciberseguridad"?</h3>
+                        <p>Dejamos 1 minuto para pensa a partir de...</p>
+                    </section>
+                    <section data-background-video="./video/cuentaAtras.mp4" data-background-color="#F3F781">
+                        <p align=left><font color="yellow">¡YA!</font></p>
+                    </section>
+                    <section data-background-color="#F4FA58">
+                        <p>Ahora vamos a escuchar la opinión de un experto</p>
+                        <video data-autoplay src="./video/ciberseguridad.mp4"></video>
+                    </section>
+                    <section data-background-color="#F7FE2E">
+                    	<blockquote cite="https://protegermipc.net/2017/04/04/las-mejores-frases-sobre-seguridad-informatica/">
+                    		"El único sistema completamente seguro es aquel que está apagado, encerrado en un bloque de cemento y sellado en una habitación rodeada de alambradas y guardias armados".
+						</blockquote>
+                    </section>
+                </section>
+
+            	<section>
+                    <section id="tema1" data-background-image="./myimages/fondo.png">
+                        <h3><font color="white">Unidad 1: La información</font></h3>
+                    </section>
+                    <section data-background-color="#F7BE81">
+                        <h4>¿Qué es la confidencialidad?</h4>
+                        <p>Es la <b>propiedad de la información</b> por la que la información no se pone a disposición o se revela a individuos, entidades o procesos no autorizados.</p>
+                    </section>
+                    <section data-markdown data-background-color="#FAAC58"> 
+                    <script type="text/template">
+                      ## ¿Qué información debemos cifrar?
+
+                      * Aquella que sea de vital importancia en nuestro trabajo y, sobre todo, si su difusión podría ser un problema. <!-- .element: class="fragment" data-fragment-index="2" -->
+                      * Si trabajamos con datos personales de nivel alto como datos de salud, la legislación, etc. <!-- .element: class="fragment" data-fragment-index="3" -->
+                      * También es recomendable cifrar un fichero si lo vamos a enviar a usuarios o proveedores. <!-- .element: class="fragment" data-fragment-index="4" -->   
+                        * Aunque alguien “capture” el fichero, no podrá acceder a su contenido. <!-- .element: class="fragment" data-fragment-index="4" -->
+                    </script>
+                    </section>
+                </section>
+
+                <section>
+                    <section id="tema2" data-background-image="./myimages/fondo.png">
+                        <h3><font color="white">Unidad 2: Los soportes</font></h3>
+                    </section>
+                    <section data-background-color="#A9F5A9">
+                        <p>Los soportes más utilizados son:</p>
+                            <ol>
+                                <li class="fragment highlight-current-blue">Discos duros internos y externos.</li>
+                                <li class="fragment highlight-current-blue">Cintas y discos de seguridad.</li>
+                                <li class="fragment highlight-current-blue">Unidades USB o <i>pendrives</i>.</li>
+                                <li class="fragment highlight-current-blue">Tarjetas de memoria (SD y micro SD).</li>
+                                <li class="fragment highlight-current-blue">Discos óptimos (CD/DVD).</li>
+                            </ol>
+                    </section>
+                    <section data-background-color="#81F781">
+                        <p>De todos ellos, los soportes más utilizados son:</p>
+                            <ol>
+                                <li>Unidades USB o <i>pendrives</i>.</li>
+                                <li>Cintas y discos de seguridad.</li>
+                                <li class="fragment grow">Discos duros internos y externos.</li>
+                                <li>Tarjetas de memoria (SD y micro SD).</li>
+                                <li>Discos óptimos (CD/DVD).</li>
+                            </ol>
+                    </section>
+                </section>
+
+                <section>
+                    <section id="tema3" data-background-image="./myimages/fondo.png">
+                        <h3><font color="white">Unidad 3: El puesto de trabajo</font></h3>
+                    </section>
+                    <section data-background-color="#A9BCF5">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th class="fragment highlight-red">Medidas preventivas</th>
+                                    <th class="fragment highlight-green">Ejemplos</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Ubicación adecuada</td>
+                                    <td>Lugares lejos de sistemas de refrigeración, canalizaciones de agua o instalaciones que puedan afectar al papel.</td>
+                                </tr>
+                                <tr>
+                                    <td>Almacenamiento</td>
+                                    <td>Armarios y cajoneras con cierre o cajas fuertes.</td>
+                                </tr>
+                                <tr>
+                                    <td>Destrucción de información</td>
+                                    <td>Destructoras de papel o subcontratar la retirada y destrucción a un proveedor.</td>
+                                </tr>   
+                            </tbody>
+                        </table>
+                    </section>
+                </section>
+
+                <section>
+                    <section id="tema4" data-background-image="./myimages/fondo.png">
+                        <h3><font color="white">Unidad 4: Los dispositivos móviles</font></h3>
+                    </section>
+                    <section data-background-color="#E2A9F3">
+                        <p>Existen muchos tipos de dispositivos móviles. Hasta hace poco, en las universidades se utilizaban los ordenadores portátiles, pero actualmente, casi la totalidad de los empleados hacen uso de <i>smartphones</i>, ya sea para uso personal o corporativo, y también existe una tendencia creciente en el uso de las tabletas.</p>
+                        <img src="./myimages/dispositivos.png" width="400px">
+                    </section>
+                </section>
+
+                <section>
+                    <section id="tema5" data-background-image="./myimages/fondo.png">
+                        <h3><font color="white">Unidad 5: Técnicas hacking</font></h3>
+                    </section>
+                    <section data-background-color="#F5A9E1">
+                        <p>Vamos a hablar sobre algunas técnicas de <i>hacking</i> que podemos facilitar mediante la utilizanción de Python.</p>
+                        <p>En Python se suelen utilizar entornos virtuales para aislar los paquetes instalados. Esto evita posibles colisiones entre distintas versiones de los paquetes. Para gestionar los entornos virtuales se utilizar virtualenvwrapper, el cual podemos instalar a través de pip:</p>
+                        <pre><code>$ sudo pip install virtualenvwrapper</code></pre>
+                    </section>
+                    <section data-background-color="#F781F3">
+                        <p>Una vez instalado, es posible crear un nuevo entorno virtual:</p>
+                        <pre><code>$ mkvirtualenv habu
+Using base prefix '/usr'
+New python executable in /home/fabian/.python-envs/habu/bin/python3
+Not overwriting existing python script /home/fabian/.python-envs/habu/bin/python (you must use /home/fabian/.python-envs/habu/bin/python3)
+Installing setuptools, pip, wheel...done.
+(habu)$</code></pre>
+                    </section>
+                    <section data-background-color="#FA58F4">
+                        <p>Nuestro prompt ahora incluye el nombre del entorno virtual en el que estamos trabajando. Esto ha cambiado (entre otras cosas) cuál es nuestro intérprete de python por defecto:</p>
+                        <pre><code>$ which python
+/home/fabian/.python-envs/habu/bin/python</code></pre>
+                    </section>
+                    <section data-background-color="#FE2EF7">
+                        <p>Podemos utilizar 'deactivate' para desactivar el entorno virtual, y 'workon' para entrar en el entorno virtual:</p>
+                        <pre><code>(habu)$ which python
+/home/fabian/.python-envs/habu/bin/python
+(habu)$ deactivate 
+$ which python
+/usr/bin/python
+$ workon habu
+(habu)$ which python
+/home/fabian/.python-envs/habu/bin/python</code></pre>
+                    </section>
+                </section>
+
+                <section data-transition="zoom">
+                    <section data-background-image="./myimages/fondo.png">
+                        <h3><font color="white">Referencias bibliográficas</font></h3>
+                    </section>
+                    <section data-markdown data-background-color="#F5A9A9" data-background-transition="zoom">
+                        <script type="text/template">
+                            * Páginas de información:
+                                * [Agencia española de protección de datos](https://www.aepd.es/)
+                                * [UCM: Seguridad y protección](https://www.ucm.es/seguridad-y-proteccion/)
+                                * [Instituto Nacional de Ciberseguridad](https://www.incibe.es/catalogos-formacion-ciberseguridad)
+                        </script>
+                    </section>
+                    <section data-background-color="#F7819F">
+                    	<p>También es importante que tengas protegidos tus dispositivos. Dos muy recomendados son <a href="https://www.scanguard.com/" target="_blank">Scanguard
+                    	</a> y <a href="https://www.bitdefender.es/" target="_blank">Bitdefender</a>.</p>
+                    		<a href="https://www.infratech.es/avast" target="_blank"></a>
+						</p>
+                    </section>
+                </section>
+                <section data-background-image="./myimages/aplausos.gif"></section>
+
+            </div>
+        </div>
+
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.js"></script>
+        <script>
+            Reveal.initialize({
+
+                 transition: 'convex',
+
+                 slideNumber: true,
+
+              dependencies: [
+        // Para interpretar Markdown en los elementos <section>
+                { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                // Syntax highlight for <code> elements
+                { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                { src: 'plugin/notes/notes.js', async: true }
+              ]
+            });
+        </script>
+</body>
+</html>
