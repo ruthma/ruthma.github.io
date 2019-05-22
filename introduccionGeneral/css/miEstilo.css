@@ -1,0 +1,13 @@
+div.column {
+	display: inline-block; 
+	vertical-align: top; 
+	width: 50%;}
+body {
+	background-color: #8A0829;
+}
+.caution {
+	color: #01DF01;
+}
+.bloc {
+	color: #FFFF00;
+}
